@@ -26,11 +26,16 @@ function exec(config, method, params){
     );
 }
 
-exec(config, method, {})
-    .then(function(data){
-        console.log(data);
-    })
-    .catch(function(error){
-        console.log('ERROR ' + error);
-    });
+function vkonliner(){
+    exec(config, method, {})
+        .then(function(data){
+            console.log(data);
+        })
+        .catch(function(error){
+            console.log('ERROR ' + error);
+        });
+}
+
+module.exports = vkonliner;
+
 
