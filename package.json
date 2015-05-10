@@ -1,0 +1,15 @@
+{
+  "name": "vkonliner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vkonliner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^3.2.0",
+    "object-assign": "^2.0.0"
+  }
+}
